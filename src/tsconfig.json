@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "system",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "lib": [ "es2015", "dom" ],
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true
+  },
+    "exclude": [
+      "node_modules",
+      "systemjs-angular-loader.js",
+      "systemjs.config.extras.js",
+      "systemjs.config.js",
+      "extensions.bundle.js"     
+  ]
+}
